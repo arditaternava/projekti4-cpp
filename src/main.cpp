@@ -1,7 +1,8 @@
 #include <iostream>
 #include "storage.h"
 
-int main() {
+int main(int argc, char* argv[]) 
+ {
     std::cout << "Hello from Projekti 4" << std::endl;
 
     std::vector<std::string> data = {
